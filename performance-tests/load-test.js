@@ -3,9 +3,9 @@ import { sleep } from 'k6';
 
 export const options = {
   stages: [
-    { duration: '10s', target: 10 }, // Розгін
-    { duration: '20s', target: 10 }, // Стабільність
-    { duration: '10s', target: 0 },  // Завершення
+    { duration: '5s', target: 5 },
+    { duration: '10s', target: 5 },
+    { duration: '5s', target: 0 },
   ],
 };
 
